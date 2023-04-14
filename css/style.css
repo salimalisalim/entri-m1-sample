@@ -1,0 +1,33 @@
+#navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    color:#fff !important;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item{
+    height: 450px;
+}
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption{
+    background: rgba(22, 19, 19,0.6);
+}
+.navbar-toggler{
+    border: solid 1px #cbcbcb;
+    background-color: aliceblue;
+}
+.navbar-toggler-icon{
+    color: #cbcbcb;
+}
+@media screen and (max-width:768px){
+    #carouselExampleCaptions .carousel-inner .carousel-item{
+        height: 220px;
+    }
+    #carouselExampleCaptions .carousel-inner .carousel-item img{
+        height: 100%;
+    }
+}
+.bg-grey{
+    background-color: rgb(221, 221, 221);
+}
+.color-carrot{
+    color: rgb(248, 119, 7);
+}
+.apple-green{
+    color: #008325;
+}
